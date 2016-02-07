@@ -1,0 +1,10 @@
+#Equinox secure storage version 1.0
+#Sat Feb 06 19:08:11 UTC 2016
+org.eclipse.equinox.security.preferences.version=1
+org.eclipse.equinox.security.preferences.cipher=PBEWithSHAAnd3KeyTripleDES
+/www-912.ibm.com\:443/Credentials\ required\ to\ connect\ to\ the\ IBM\ download\ site.\ Enter\ IBM\ ID\ and\ password.@IBM@@DLG@<a\ href\="https\:/basic/pwd=com.ibm.cic.security.storage.capilanopasswordprovider\tyFR9/7VDh/k\=,weygJSOF8azEQZyHnpc8Tg\=\=
+org.eclipse.equinox.security.preferences.cic.defaultpasswordused=\t,ZmFsc2U\=
+org.eclipse.equinox.security.preferences.keyFactory=PBEWithSHAAnd3KeyTripleDES
+/www-912.ibm.com\:443/Credentials\ required\ to\ connect\ to\ the\ IBM\ download\ site.\ Enter\ IBM\ ID\ and\ password.@IBM@@DLG@<a\ href\="https\:/basic/persist=com.ibm.cic.security.storage.capilanopasswordprovider\tMHlx4gTGTaw\=,KHhftuI7x2g\=
+/www-912.ibm.com\:443/Credentials\ required\ to\ connect\ to\ the\ IBM\ download\ site.\ Enter\ IBM\ ID\ and\ password.@IBM@@DLG@<a\ href\="https\:/basic/uid=com.ibm.cic.security.storage.capilanopasswordprovider\t73C0NpIlHZw\=,luF/5bHdaKtQAEJEfZMb1w\=\=
+/org.eclipse.equinox.secure.storage/verification/com.ibm.cic.security.storage.capilanopasswordprovider=com.ibm.cic.security.storage.capilanopasswordprovider\tvR2KtaIKLuM\=,i+3CLyQmA0A3MN1mVdvIR2iCaOb7NVVu

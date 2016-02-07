@@ -1,0 +1,30 @@
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: centos-6.6
+    driver:
+      box: opscode-centos-6.6
+      synced_folders:
+        - ["/tmp", "/vagrant"]
+
+suites:
+  - name: default
+    run_list:
+      - recipe[iim::default]
+      - recipe[ihs::default]
+    attributes:
+      im:
+        access_mode: 'nonAdmin' #admin and group are the other options
+        install_zip:
+          url: 'https://s3.amazonaws.com/ibm-artifacts/ibm-iim/agent.installer.linux.gtk.x86_64_1.8.4000.20151125_0201.zip'
+        secure_storage_file: '/vagrant/secureStorageFile'
+        master_password_file: '/vagrant/masterPasswordFile'
+      ihs:
+        install:
+          repositoryLocation: 'http://www.ibm.com/software/repositorymanager/V85WASIHSILAN'
+          #secureStorageFile: '/vagrant/secureStorageFile'
+          #master_password_file: '/vagrant/masterPasswordFile'
